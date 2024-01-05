@@ -31,6 +31,7 @@ class RateDiscountPolicyTest {
         Member member = new Member(2L, "memberVIP", Grade.Basic);
         // when
         int discount = discountPolicy.discount(member, 10000);
+        System.out.println("discount = " + discount);
         //then
         assertThat(discount).isEqualTo(0);
     }
