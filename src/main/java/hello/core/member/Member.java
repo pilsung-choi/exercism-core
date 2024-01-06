@@ -5,6 +5,7 @@ public class Member {
     private String name;
     private Grade grade;
 
+    // js에서 construetor 역할
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
