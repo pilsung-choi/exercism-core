@@ -9,6 +9,7 @@ import hello.core.order.OrderServiceImpl;
 
 public class AppConfig {
 
+    // 서비스를 여기서 DI한다
     public MemberService memberService() {
         return new MemberServiceImpl(new MemoryMemberRepository());
     }
