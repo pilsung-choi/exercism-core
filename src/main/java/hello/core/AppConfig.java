@@ -27,7 +27,6 @@ public class AppConfig {
     public DiscountPolicy discountPolicy() {
         return new FixDiscountPolicy();
     }
-
+    // 더 세분화한 분리
 }
-
 
