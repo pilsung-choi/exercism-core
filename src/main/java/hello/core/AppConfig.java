@@ -12,6 +12,8 @@ import hello.core.order.OrderServiceImpl;
 
 public class AppConfig {
 
+    // 제어의 역전
+    // 클라이언트가 호출하는게 아니라 호출 당하는것
     // 서비스를 여기서 DI한다
     public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
