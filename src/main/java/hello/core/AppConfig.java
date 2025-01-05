@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfig {
-    // 4강 start
+    // 5강 start
     // 제어의 역전
     // 클라이언트가 호출하는게 아니라 호출 당하는것
     // 서비스를 여기서 DI한다
