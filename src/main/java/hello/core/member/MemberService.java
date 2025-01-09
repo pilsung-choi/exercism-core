@@ -7,7 +7,7 @@ public interface MemberService {
     Member findMember(Long memberId);
 }
 
-// 회원 클래스 다이어그랩
+// 회원 클래스 다이어그랩 3
 /*
     <interface>
     MemberService
